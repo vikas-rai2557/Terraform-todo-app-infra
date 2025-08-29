@@ -6,3 +6,11 @@ on:
       - 'main'
       - 'features/**'
       - 'hotfix/**'
+      
+jobs:
+  terraforminit:
+    name: dhondu maharaj
+    runs-on: dhondu-maharaj
+    steps:
+     - name: dhondu maharaj rocks
+      run: echo dhondu maharaj
