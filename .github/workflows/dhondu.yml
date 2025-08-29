@@ -4,13 +4,13 @@ on:
   push:
     branches:
       - 'main'
-      - 'features/**'
+      - 'feature/**'
       - 'hotfix/**'
       
 jobs:
-  terraforminit:
+  dhondumaharaj:
     name: dhondu maharaj
     runs-on: dhondu-maharaj
     steps:
      - name: dhondu maharaj rocks
-      run: echo dhondu maharaj
+       run: echo dhondu maharaj
