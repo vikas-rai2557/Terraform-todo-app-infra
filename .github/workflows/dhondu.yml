@@ -12,5 +12,8 @@ jobs:
     name: dhondu maharaj
     runs-on: dhondu-maharaj
     steps:
-     - name: dhondu maharaj rocks
-       run: echo dhondu maharaj
+     # - name: dhondu maharaj rocks
+     #   run: echo dhondu maharaj
+
+     - name: terraforminit
+       run: terraform init
