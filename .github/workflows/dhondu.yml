@@ -1,0 +1,8 @@
+name: "dhondu maharaj"
+
+on:
+  push:
+    branches:
+      - 'main'
+      - 'features/**'
+      - 'hotfix/**'
