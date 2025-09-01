@@ -1,19 +1,16 @@
 name: "dhondu maharaj"
 
-on:
-  push:
-    branches:
-      - 'main'
-      - 'feature/**'
-      - 'hotfix/**'
+on: workflow_dispatch
       
 jobs:
-  dhondumaharaj:
-    name: dhondu maharaj
-    runs-on: dhondu-maharaj
+  terraform-job:
+    name: terraform job
+    runs-on: self-hosted
     steps:
-     # - name: dhondu maharaj rocks
-     #   run: echo dhondu maharaj
+      - name: Checkout
+        uses: actions/checkout@v5.0.0
 
-     - name: terraforminit
-       run: terraform init
+      - name: Terraform installer
+        uses: autero1/action-terraform@v3.0.1
+        with: 
+          version: 1.13.0
