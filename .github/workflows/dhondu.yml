@@ -20,5 +20,8 @@ jobs:
           client-id: f79bff9b-6bbb-4e7a-948c-6ddb3e615071
           tenant-id: 4cf44098-fae1-43c3-95f4-893895b698a0
           subscription-id: 075d036c-4cbd-46d6-a39c-519dc57956b3
+permissions:
+  id-token: write
+  contents: read          
          
          
