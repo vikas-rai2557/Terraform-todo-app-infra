@@ -5,13 +5,13 @@ terraform {
       version = "4.41.0"
     }
   }
-#   backend "azurerm" {
-#     resource_group_name  = "todo-rg"
-#     storage_account_name = "todostg"
-#     container_name       = "todo-container"
-#     key                  = "todo.key"
+  backend "azurerm" {
+    resource_group_name  = "todo-rg"
+    storage_account_name = "todostg"
+    container_name       = "todo-container"
+    key                  = "todo.key"
 
-#   }
+  }
 
 }
 
